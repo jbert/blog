@@ -1,3 +1,6 @@
 [submodule "themes/aglaus"]
 	path = themes/aglaus
 	url = https://github.com/dim0627/hugo_theme_aglaus
+[submodule "themes/blackburn"]
+	path = themes/blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn
