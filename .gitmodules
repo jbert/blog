@@ -4,3 +4,6 @@
 [submodule "themes/blackburn"]
 	path = themes/blackburn
 	url = https://github.com/yoshiharuyamashita/blackburn
+[submodule "themes/hugo-dusk"]
+	path = themes/hugo-dusk
+	url = https://github.com/gyorb/hugo-dusk
