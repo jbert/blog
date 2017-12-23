@@ -37,7 +37,7 @@ allocate a server for each incoming request.
 After running the service in test and staging for a while, we took a closer
 look at the server utilisation for capacity planning purposes. And found this:
 
-{{% fluid_imgs "pure-u-1-1|/img/load-balancing-problem.png|The Problem" %}}
+![The Problem](/img/load-balancing-problem.png)
 
 The interesting parts of this graph are the two "dips" which correspond to
 times when we deployed new code - restarting each server in turn to pick up
@@ -87,7 +87,7 @@ as a rectangle, we can see the first-restarted server gets twice the load it
 would in a well-balanced setup - and that this doesn't change as we add more
 servers.
 
-{{% fluid_imgs "pure-u-1-1|/img/unbalanced-linear.png|The Problem" %}}
+![Linear load](/img/unbalanced-linear.png)
 
 This means we'd have to over-provision by 2x to get the same utilisation
 figures - not a great outcome.
@@ -131,7 +131,7 @@ cost of a greater impact on the service in the case we have a rogue server.
 With some real load on the live service, we know have an improved initial load
 profile following a rolling restart:
 
-{{% fluid_imgs "pure-u-1-1|/img/better.png|Improved" %}}
+![Better](/img/better.png)
 
 There **are** still lightly loaded servers (the last to be restarted), but
 more importantly the most-loaded servers after a restart are carrying much

@@ -7,3 +7,6 @@
 [submodule "themes/hugo-dusk"]
 	path = themes/hugo-dusk
 	url = https://github.com/gyorb/hugo-dusk
+[submodule "themes/minimal"]
+	path = themes/minimal
+	url = https://github.com/calintat/minimal.git
